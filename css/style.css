@@ -1,9 +1,23 @@
+
 * {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;         
+    align-items: center;
     padding: 0;
     box-sizing: 0;
 }
 
 p {
     color: aqua;
+}
+.container {
+    width: 100%;
+    height: 80%;
+    background-color: #f8f9fa;  
+}
+.rodape {
+    background-color: #346990;
+    height: 10%;
 }

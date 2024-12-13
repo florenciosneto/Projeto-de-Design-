@@ -1,0 +1,117 @@
+.package {
+    display: grid;
+    padding: 10px;
+    gap: 2px;
+  }
+  
+  .package2 {
+    display: grid;
+    padding: 10px;
+    gap: 0px;
+  }
+  
+  .package-title {
+    text-align: center;
+  }
+  
+  .package-title h2 {
+    font-size: 30px;
+    font-weight: 650;
+    padding-bottom: 10px;
+    line-height: 2;
+  }
+  
+  .package-content {
+    border-radius: 15px;
+    padding: 25px;
+    padding-right: 50px;
+    display: flex;
+    background: linear-gradient(#cfc23c, #d9d9cc 45%, #fff 45%, #fff 100%);
+    box-shadow: 10px 10px 15px #3b3737;
+    margin-top: 5px;
+    margin-left: 149px;
+    margin-right: 149px;
+    margin-bottom: 1px;
+    gap: 15px;
+  }
+  
+  .package2-content {
+    border-radius: 15px;
+    padding: 25px;
+    padding-right: 50px;
+    display: flex;
+    background: linear-gradient(#cfc23c, #d9d9cc 45%, #fff 45%, #fff 100%);
+    box-shadow: 10px 10px 15px #3b3737;
+    margin-top: 5px;
+    margin-left: 149px;
+    margin-right: 149px;
+    margin-bottom: 1px;
+    gap: 15px;
+  }
+  
+  .pack4-content {
+    background-color: #fdf5f5;
+    border-radius: 5px;
+    background-image: url("https://akam.cdn.jdmagicbox.com/images/icontent/flight/landing-page_3jan-2x.png");
+    padding: 25px;
+    padding-right: 50px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 199px;
+    margin-right: 199px;
+    margin-bottom: 1px;
+    gap: 15px;
+  }
+  
+  .pack5-content {
+    background-color: #fdf5f5;
+    border-radius: 15px;
+    background: linear-gradient(#cfc23c, #d9d9cc 45%, #fff 45%, #fff 100%);
+    box-shadow: 10px 10px 15px #3b3737;
+    padding: 25px;
+    padding-right: 50px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 149px;
+    margin-right: 149px;
+    margin-bottom: 1px;
+    gap: 15px;
+  }
+  
+  .text-block {
+    margin-bottom: 40px;
+    color: #fff;
+    position: absolute;
+    margin-bottom: 150px;
+    text-align: left;
+  }
+  
+  .image {
+    margin-top: 50px;
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    cursor: pointer;
+    filter: brightness(95%);
+  }
+  
+  .image img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+  }
+  
+  .image h3 {
+    color: white;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    bottom: 10px;
+    right: 25px;
+  }
+  
+  .image:hover {
+    filter: brightness(120%);
+    transform: scale(1.03);
+  }
+  

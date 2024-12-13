@@ -1,0 +1,33 @@
+.destination-title {
+    text-align: center;
+}
+
+.container1 {
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto auto;
+    background: color #f6f1f1;
+    padding: 48px;
+    font-size: 12px;
+    gap: 10px;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 1px;
+}
+
+.loc-detail li {
+    font-size: 10px;
+    color: black;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    list-style-type: circle;
+}
+
+    .box {
+    background: inherit;
+    color: black;
+    box-shadow: 5px 5px 10px #3b3737;
+    padding: 5px;
+    border-radius: 15px;
+}

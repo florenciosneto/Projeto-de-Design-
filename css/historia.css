@@ -1,0 +1,92 @@
+.aboutbody {
+    background-color: white;
+  }
+  
+  .about {
+    width: 100%;
+    padding: 110px 0px;
+  }
+  
+  .about img {
+    position: static;
+    height: auto;
+    width: 200px;
+  }
+  
+  .abt-text {
+    width: 900px;
+  }
+  
+  .abt-text h1 {
+    font-size: 50px;
+    color: #191919;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  
+  .abt-text h1 span {
+    letter-spacing: 1px;
+  }
+  
+  .abt-text p {
+    padding: 10px;
+    margin-right: 150px;
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 45px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+  
+  .main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .connectbtn {
+    display: inline-block;
+    background-color: #191919;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 20px;
+    transition: ease 0.4s;
+    border: 2px solid transparent;
+    letter-spacing: 1px;
+  }
+  
+  .connectbtn:hover {
+    background-color: transparent;
+    font-size: 18px;
+    color: #191919;
+    font-weight: bold;
+    border: 2px solid green;
+  }
+  
+  .connect-section {
+    margin-top: 26px;
+  }
+  
+  .social-icons a {
+    height: 40px;
+    width: 40px;
+    margin: 4px;
+    font-size: 30px;
+    color: #101010;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+  }
